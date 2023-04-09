@@ -1272,6 +1272,19 @@
   },
   {
     "inputs": [],
+    "name": "mWomSV",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "masterMagpie",
     "outputs": [
       {
@@ -1345,6 +1358,19 @@
   {
     "inputs": [],
     "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_mWomSV",
+        "type": "address"
+      }
+    ],
+    "name": "setMWomSV",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
